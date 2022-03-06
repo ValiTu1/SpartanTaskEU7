@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "spartan/step_definitions",
         dryRun = true,
-        tags = ""
+        tags = "@wip"
 )
 public class CukesRunners {
 }
