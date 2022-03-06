@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features";
-        glue = "spartan/step_definitions";
+        features = "src/test/resources/features",
+        glue = "spartan/step_definitions",
         dryRun = true,
         tags = ""
 )
